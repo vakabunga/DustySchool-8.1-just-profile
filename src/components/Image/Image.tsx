@@ -1,11 +1,12 @@
 import type { FC } from 'react';
 
-import { cnImage } from './Image.classname';
+type ButtonProps = {
+	link: string;
+	className?: string;
+};
 
-import './Image.css';
-
-const Image: FC = () => {
-  return <img className={cnImage()}></img>
-}
+const Image: FC<ButtonProps> = ({ link, className }) => {
+	return <img src={link} className={className}></img>;
+};
 
 export { Image };
