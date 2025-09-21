@@ -1,8 +1,3 @@
-.page {
-	min-width: 375px;
-	margin: 0;
-}
-
 .Header {
 	position: relative;
 	
@@ -13,13 +8,13 @@
 	
 	height: 86px;
 
+	margin: 0 -20px;
 	padding-bottom: 21px;
 	
 	box-shadow: 0 10px 5px -4px #0000001a;
 }
 
 .Header-text {
-	font-weight: 500;
 	font-size: 18px;
 	line-height: 100%;
 	
