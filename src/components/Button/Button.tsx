@@ -4,8 +4,12 @@ import { cnButton } from './Button.classname';
 
 import './Button.css';
 
-const Button: FC = () => {
-	return <div className={cnButton()}></div>;
+export type ButtonProps = {
+	text: string;
+};
+
+const Button: FC<ButtonProps> = ({ text }) => {
+	return <button className={cnButton()}>{text}</button>;
 };
 
 export { Button };
