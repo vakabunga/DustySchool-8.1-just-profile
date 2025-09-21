@@ -1,19 +1,20 @@
 import type { FC } from 'react';
 
-import { Footer } from './components/Footer/Footer';
+import { Button } from './components/Button/Button';
 import { Header } from './components/Header/Header';
 import { Menu } from './components/Menu/Menu';
 import { Profile } from './components/Profile/Profile';
+import { cnApp } from './App.classname';
 
 import './App.css';
 
 const App: FC = () => {
 	return (
-		<div>
+		<div className={cnApp()}>
 			<Header />
 			<Profile />
 			<Menu />
-			<Footer />
+			<Button text="Logout" />
 		</div>
 	);
 };
