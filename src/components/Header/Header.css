@@ -1,0 +1,33 @@
+.page {
+	min-width: 375px;
+	margin: 0;
+}
+
+.Header {
+	position: relative;
+	
+	display: flex;
+	gap: 28px;
+	flex-wrap: nowrap;
+	align-items: end;
+	
+	height: 86px;
+
+	padding-bottom: 21px;
+	
+	box-shadow: 0 10px 5px -4px #0000001a;
+}
+
+.Header-text {
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 100%;
+	
+	margin: 0;
+}
+
+.Header-Image {
+	height: 18px;
+	
+	margin-left: 28px;
+}
